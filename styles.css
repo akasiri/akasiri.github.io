@@ -1,0 +1,72 @@
+h1 {
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-left: calc(20px + 1.4vw);
+    margin-top: calc(5px + 1.4vw);
+    font-size: calc(1.6em + 1.4vw);
+}
+
+body {
+    height: fill;
+    background: url(images/IMG_20180501_124115.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 5%;
+    bottom: 6%;
+    
+    padding: 15px;
+
+    background-color: rgba(255, 255, 255, 0.62);
+    
+    border: solid;
+    border-width: 10%;
+    border-color: rgba(255, 255, 255, 0.42);
+}
+
+.link-container {
+    text-align: center;
+    vertical-align: center;
+    
+    margin-top: calc(12% - 18px);
+}
+
+button.link {
+    background-color: white;
+    border: solid;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 20px 25px 20px 25px;
+    
+    text-emphasis-color: antiquewhite;
+    border-color: rgb(60,60,60);
+}
+
+button:hover{
+    background-color: rgb(80, 140, 220);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    
+    font-size: 0.75em;
+    color: white;
+    
+    background-color: rgb(40,40,40);
+    margin: 5px;
+    padding: 2px;
+}
+
+#picture-info {
+    left: 0;
+}
+
+#copyright {
+    right: 0;  
+}
